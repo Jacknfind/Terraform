@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 
-data "azurerm_resource_group" "springapp" {
+resource "azurerm_resource_group" "springapp" {
   name     = "${var.prefix}"
   location = "${var.location}"
 }
