@@ -2,3 +2,5 @@
 .terraform
 terraform.tfstate
 terraform.tfstate.backup
+AWS/.DS_Store
+AWS/Examples/.DS_Store
